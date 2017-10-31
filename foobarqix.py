@@ -2,7 +2,7 @@ def is_divisible(number, divisor):
     return number % divisor == 0
 
 
-def foobarquix(number):
+def foobarqix(number):
     result = ""
     if is_divisible(number, 3):
         result += "Foo"
