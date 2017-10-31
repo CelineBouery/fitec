@@ -36,10 +36,9 @@ class FooBarQixTestCase(unittest.TestCase):
     def test_return_FooBar_when_number_is_divisible_by_5_and_3(self):
         self.assertEqual(foobarquix(15), "FooBar")
 
-    def test_return_1_when_number_is_1(self):
+    def test_return_number_as_a_string_otherwise(self):
         self.assertEqual(foobarquix(1), "1")
-
-    def test_return_2_when_number_is_2(self):
         self.assertEqual(foobarquix(2), "2")
+
 
 unittest.main()
